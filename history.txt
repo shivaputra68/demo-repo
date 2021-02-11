@@ -1,0 +1,91 @@
+    1  git -v
+    2  git --version
+    3  git config --global --edit
+    4  git config --global --editor "nano"
+    5  git config --global core.editor "nano"
+    6  git config --global --editor "nano"
+    7  git config --global --edit
+    8  git config --global core.editor "nano"
+    9  git config --global --edit
+   10  pwd
+   11  mkdir lsscls
+   12  clear
+   13  pwd
+   14  ls
+   15  git status
+   16  git init
+   17  ls -al
+   18  cd lsscls
+   19  git init
+   20  ls -al
+   21  git status
+   22  echo hello > file.txt
+   23  git status
+   24  git add file.txt
+   25  git status
+   26  echo hello > file2.txt
+   27  git status
+   28  git add file2.txt
+   29  git status
+   30  git add file.txt file2.txt
+   31  git status
+   32  git add *.txt
+   33  mkdir p1
+   34  echo hold >> file.txt
+   35  git status
+   36  git add *.txt
+   37  git status
+   38  git commit -m "hello world initial commit"
+   39  git status
+   40  git commit
+   41  echo world >> file2.txt
+   42  git status
+   43  git add file2.txt
+   44  git status
+   45  git commit -m "Hello world in both the file"
+   46  git status
+   47  git log
+   48  git clone https://github.com/shivaputra68/demo-repo.git
+   49  ls demo*
+   50  pwd
+   51  cd demo-repo
+   52  ls 
+   53  ls -al
+   54  cat README.md
+   55  cd ..
+   56  git clone https://github.com/shivaputra68/demo-repo.git
+   57  ls -al
+   58  cd demo-remo
+   59  cd demo-repo
+   60  ls -al
+   61  cat > README>md
+   62  cat  README.md
+   63  nano README.md
+   64  git status
+   65  git add README.md
+   66  git status
+   67  nano index.html
+   68  git add index.html
+   69  git status
+   70  git commit -m "added index.html and README.md updated"
+   71  git status
+   72  git READMEmd
+   73  git README mf
+   74  git README md
+   75  ls ssh
+   76  git status
+   77  git push
+   78  ssh
+   79  ssh-keygen -t ed25519 -C "shivakamt888@gmail.com"
+   80  ls -al /home/shiva/.ssh
+   81  eval "$(ssh-agent -s)"
+   82  ssh-add ~/.ssh/id_ed25519
+   83  sudo apt-get install xclip
+   84  xclip -selection clipboard < ~/.ssh/id_ed25519.pub
+   85  git push
+   86  git pull
+   87  git push
+   88  xclip -selection clipboard < ~/.ssh/id_ed25519.pub
+   89  git push
+   90  git commit -m "abc"
+   91  history > history.txt
